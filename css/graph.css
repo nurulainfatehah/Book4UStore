@@ -1,0 +1,84 @@
+.kotakcategory
+{
+	text-align: left;
+	display: inline-block;
+	align-content: center;
+	margin-top: 10px;
+	margin-right: 50px;
+	height: 80px;
+	width: 218px;
+	background-color: rgba(117, 20, 117, 0.1);
+	border: 1 solid #cacaca;
+	border-radius: 5px;
+	
+}
+
+.kotakcategory:hover
+{
+	box-shadow: 1px 1px 1px 1px;
+	
+}
+
+p#textHeader
+{
+	margin-top: 10px;
+	margin-bottom: 0;
+	margin-left: 8px;
+	
+	font-size: 13px; 
+	width: 33%;
+	display: inline-block; 
+	padding-left: 0;  
+	text-align: left;
+
+}
+
+p.textkotakcategory
+{
+	width: 25%;
+	margin-bottom: 0;
+	margin-top: 0;
+	margin-right: auto;
+	margin-left: auto;
+	font-size: 18px;
+	display: inline-block; 
+	color: black;	
+	text-align: center;	
+
+}
+
+.kotakgambar
+{
+	margin-top: 5px;
+	float: right;
+	height: 70px;
+	width: 70px;
+	margin-right: 5px;
+	border-radius: 5px;
+	background-color: white;
+}
+
+img
+{
+	padding-top: 10px;
+	height: 60px;
+	width: 60px;
+	text-align: center;
+	display: block;
+
+	margin-left: auto;
+	margin-right: auto;
+}
+.kotakgrafholder{
+	padding-bottom: 20px;
+	background-color: rgba(117, 20, 117, 0.1);
+}
+
+.kotakgraf
+{
+	margin-left: 0px;
+	padding: 10px 5px 0px 5px;
+	width: auto;
+	display: inline-block;
+	
+}

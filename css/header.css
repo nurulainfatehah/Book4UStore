@@ -1,0 +1,289 @@
+html{	
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	margin: 0;
+	box-sizing: border-box;
+	max-width: 100%;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	color: black;
+	line-height: 1.15;
+}
+
+
+body{
+	background: rgba(103, 128, 159, 0.2);
+	width: calc(100vw - 34px);	
+	font-size: 14px;	
+	padding-bottom: 10px;
+	margin: 0;
+}
+
+
+header
+{
+	position: relative;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding: 10px;
+	background: #fff;
+	box-sizing: border-box;
+	border-radius: 4px;
+	box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.bookHolder{
+	width: 90%;
+	margin-right: auto;
+	margin-left: 5%; 
+	justify-content: center;
+	background-color: transparent;
+	padding-top: 10px;
+	display: inline-flex; justify-content: center;
+}
+
+.sortSearchHolder{
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: white;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	margin-bottom: 20px;
+	box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+
+.logo
+{
+	color: rgba(103, 128, 159, 1);
+	height: 60px;
+	font-size: 16px;
+	line-height: 60px;
+	padding: 0 20px;
+	text-align: center;
+	box-sizing: border-box;
+	float: left;
+	font-weight: 700;
+	text-decoration: none;
+}
+nav
+{
+	float: right;
+}
+
+.clearfix
+{
+	clear: both;
+}
+
+nav ul
+{
+	margin: 0;
+	padding: 0;
+	display: flex;
+
+}
+
+nav ul li
+{
+	list-style: none;
+	margin: 10px 0;
+	
+}
+
+nav ul li a
+{
+	padding: 10px 20px;
+	display: block;
+	text-decoration: none;
+	color: #262626;
+}
+
+nav ul li a.activebar,
+nav ul li a:hover
+{
+	background: rgba(103, 128, 159, 0.6);
+	color: #fff;
+	transition: 0.5s;
+}
+
+/*@media (max-width: 1200px)
+{
+	header
+	{
+		
+	}
+}*/
+
+.soldout
+{
+	position: absolute;
+	top: 60px;
+	left: 60px;
+	height: 90px;
+	width: 120px;
+}
+.about
+{
+	color: gray;
+	font-size: 14px;
+	float: right;
+	margin-right: 10px;
+	text-decoration-style: none;
+	text-align: center;
+}
+
+.about:hover
+{
+	color: #ff0072;
+}
+
+a{
+	text-decoration: none;
+	text-decoration-color: none;
+	text-decoration-line: none;
+	color: inherit;
+}
+a.submit, .submit
+{
+	background-color: pink;
+	border: none;
+	margin-left: 10%;
+	width: 120px;
+	padding: 5px;
+	font-size:10pt;
+	cursor: pointer; 
+}
+
+.submit:hover, a.submit:hover{
+	color: white;
+	background-color: #ff0072;
+}
+
+.footer{
+	color: gray;
+	float: right;
+	position:fixed;
+	bottom:0;
+	width:100%;
+	height:5px;
+}
+
+
+.asterisk_input::after {
+	content:" *"; 
+	color: #e32;
+	position: absolute; 
+	margin: 0px 0px 0px -20px; 
+	font-size: x-large; 
+	padding: 0 5px 0 0; 
+}
+
+input[type="text"], input[type="email"], input[type="number"], input[type="password"]  {
+    width: 80%;
+}
+
+input{
+
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+
+textarea{
+	font-family: inherit;
+	resize: none;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	line-height: 28px;
+}
+
+.warning{
+	font-size: 9px;
+	color: red;
+	display: inherit;
+}
+
+.error
+{
+	font-size: 15px;
+	color: red;
+	margin-left: -16px;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+.hide
+{
+	float: right;
+	margin-top: -7px;
+	margin-right: 0px;
+	font-size: 10px;
+	color:  rgba(103, 128, 159, 1);
+	text-decoration-line: underline;
+	cursor: pointer;
+}
+
+.hide:hover
+{
+	color: red;
+	text-decoration-line: none;
+}
+
+select{
+	padding: 5px 10px 5px 10px;
+}
+
+
+.soldImg{
+	position: absolute;
+	top: 80px;
+	left: 15px;
+	height: 130px;
+	max-width: 100%;
+}
+
+.checked {
+  color: orange;
+}
+
+#clearsearch{
+	cursor: pointer;
+}
+
+#clearsearch:hover{
+	color: #ff0072;
+}
+
+.boxHolder
+{
+	padding: 20px 10px 30px 10px;
+	background-color: white;
+	width: 88.5%;
+	margin-left:auto;
+	margin-right: auto;
+}
+
+.asterisk_input::after {
+	content:" *"; 
+	color: #e32;
+	position: absolute; 
+	margin: 0px 0px 0px -20px; 
+	font-size: x-large; 
+	padding: 0 5px 0 0; 
+}
+
+
+#accept:hover{
+	color: green;
+	cursor: pointer;
+}
+
+#oppose:hover{
+	color: red;
+	cursor: pointer;
+}

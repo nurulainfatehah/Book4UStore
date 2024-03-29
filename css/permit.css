@@ -1,0 +1,75 @@
+@page
+{
+	size: portrait;
+	margin: 7mm 17mm 7mm 17mm;
+
+	
+}
+
+body{
+	text-align: justify;
+	box-sizing: border-box;
+	line-height: 1.15;
+}
+
+#printid
+{
+	float: right;
+	display: ;
+	visibility: visible;
+}
+
+.innerletter{
+	margin: 20px 10px 20px 10px;
+	line-height: 2.00;
+	letter-spacing: 1px;
+}
+
+.companyheading{
+	margin: 20px 20px 20px 20px;
+
+}
+
+.recipientheading{
+	font-weight: bold;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-size: 18px;
+}
+
+.title{
+	margin-top: 20px;
+	margin-bottom: 15px;
+	text-decoration-line: underline;
+	font-weight: bold;
+}
+
+@media print
+{
+    * {-webkit-print-color-adjust:exact;
+    }
+    body{
+    	width: 100%;
+    	margin-left: auto;
+    	margin-right: auto;
+    }
+
+    table { page-break-after:auto }
+	tr    { page-break-inside:avoid; page-break-after:auto }
+	td    { page-break-inside:avoid; page-break-after:auto }
+	thead { display:table-header-group }
+	tfoot { display:table-footer-group }
+   
+    #printid
+	{
+		display: none;
+		visibility: hidden;
+	}
+
+
+    .pagebreak { page-break-before: always;
+    }
+
+}
+
+

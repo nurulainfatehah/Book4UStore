@@ -1,0 +1,65 @@
+.kotakaboutus
+{
+	width:auto;
+	margin-left: 5%;
+	margin-right: 5%;
+	background-color: rgba(255,255,255,0.8);
+	border-radius: 3px;
+	margin-bottom: 40px;
+	padding-bottom: 30px;
+	height: auto;
+	
+}
+
+.content
+{
+	padding: 10px;	
+}
+
+.contacttext
+{
+	padding-left: 20px;
+	padding-top: 20px;
+	font-size: 45px;
+	font-family: 'Avenir Next', sans-serif, Montserrat;
+	font-weight: 600;
+}
+
+.addU2BOOK
+{
+	margin-top: 18px;
+	margin-bottom: 18px;
+	padding: 10px;
+	padding-left: 30px;
+	padding-right: 30px;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeSpeed;
+	letter-spacing: 0em;
+	line-height: 1;
+	text-transform: uppercase;
+	font-family: Montserrat;
+	font-size: 20px;
+	text-align: left;
+	color: #fff;
+	box-sizing: border-box;
+	display: inline-block;
+	vertical-align: baseline;
+	word-break: break-word;
+	font-weight: inherit;
+	background-color: #ff0072;
+	font-family: sans-serif;
+}
+
+.address
+{
+	margin-top: 14px;
+	font-family: monospace;
+	font-size: 16px;
+	padding-left: 30px;
+}
+
+table th {
+	width: 150px;
+	text-align: left;
+	height: 1.3cm;
+}

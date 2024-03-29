@@ -1,0 +1,61 @@
+@page
+{
+	size: landscape;
+	margin: 7mm 17mm 0mm 17mm;
+
+	
+}
+
+
+
+
+
+
+
+@media print
+{
+    * {-webkit-print-color-adjust:exact;
+    }
+    body{
+    	width: 100%;
+    	margin-left: auto;
+    	margin-right: auto;
+    }
+    .printbutton
+{
+	display: none;
+	visibility: none;
+}
+    .pagebreak { page-break-before: always;
+    }
+    
+    .graphs{
+		height: 220px; width: 380px;
+	}
+
+	.graphsbig{
+		height: 320px; width: 620px; 
+	}
+
+	.kotakgrafholder{
+		width: 90%;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 20px;
+		background-color: transparent;
+	}
+
+	.kotakgraf{
+
+		border: 1px solid lightgrey;
+		padding: 10px 5px 5px 5px;
+		width: auto;
+		margin-bottom: 5px;
+		margin-top: 10px;
+		margin-left: 20px;
+		
+	}
+
+}
+
+

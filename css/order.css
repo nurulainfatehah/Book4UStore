@@ -1,0 +1,379 @@
+.boxHolder{
+	margin-bottom: 30px;
+}
+.option-barholder{
+	margin-left: 20px;
+	margin-top: 13px;
+
+}
+.option-bar{
+	
+	display: inline-block;
+	border-bottom: 0px;
+	color: black;
+	background-color: pink;
+	padding: 10px 8px 10px 8px;
+	width: 12%;
+	text-align: center;
+	margin-bottom: 0px;
+	text-overflow: ellipsis;
+	word-wrap: break-word;
+	cursor: pointer;
+}
+
+.option-bar:hover{
+	color: white;
+	background-color: #ff0072;
+}
+
+.submitorder
+{
+	border: none;
+	width: 80px;
+	height: 25px;
+	cursor: pointer;
+	margin-left: 20px;
+	background-color: transparent;
+	color: rgb(26, 156, 183);
+	
+}
+
+.submitorder:hover
+{
+	color: white;
+	background-color: #ff0072;
+}
+#choice
+{
+	font-family: Roboto-Regular,'Helvetica Neue',Helvetica,Tahoma,Arial,Sans-serif;
+	font-size: 14px;
+	background-color: white;
+	margin-top: 10px;
+	margin-right: auto;
+	margin-left: auto;
+	width: 1200px;
+	height: 60px;
+}
+
+.container
+{
+	-webkit-tap-highlight-color: transparent;
+	padding: 20px 10px 10px 10px;
+	margin-left:auto;
+	margin-right: auto;
+}
+
+.order-list
+{
+	-webkit-tap-highlight-color: transparent;
+	line-height: 1.15;
+	color: #212121;
+	font-size: 14px;
+	font-family: Roboto-Regular,'Helvetica Neue',Helvetica,Tahoma,Arial,Sans-serif;
+	margin: 0;
+	padding: 0;
+	box-sizing: inherit;
+}
+
+.orders
+{
+	-webkit-tap-highlight-color: transparent;
+	line-height: 1.15;
+	color: #212121;
+	font-size: 14px;
+	font-family: Roboto-Regular,'Helvetica Neue',Helvetica,Tahoma,Arial,Sans-serif;
+	margin: 0;
+	padding: 0;
+	box-sizing: inherit;
+}
+
+.order
+{
+	-webkit-tap-highlight-color: transparent;
+	line-height: 1.15;
+	color: #212121;
+	font-size: 14px;
+	font-family: Roboto-Regular,'Helvetica Neue',Helvetica,Tahoma,Arial,Sans-serif;
+	margin: 0;
+	padding: 0;
+	box-sizing: inherit;
+	margin-top: 12px;
+	margin-bottom: 12px;
+	background-color: #fff;
+}
+
+.order-info
+{
+	-webkit-tap-highlight-color: transparent;
+	line-height: 1.15;
+	color: #212121;
+	font-size: 14px;
+	font-family: Roboto-Regular,'Helvetica Neue',Helvetica,Tahoma,Arial,Sans-serif;
+	margin: 0;
+	box-sizing: inherit;
+	padding: 8px 12px;
+	min-height: 50px;
+	border-bottom: 1px solid #dadada;
+	border-top: 1px solid #dadada;
+	display: flex;
+}
+
+.pull-left
+{
+	-webkit-tap-highlight-color: transparent;
+	line-height: 1.15;
+	color: #212121;
+	font-size: 14px;
+	font-family: Roboto-Regular,'Helvetica Neue',Helvetica,Tahoma,Arial,Sans-serif;
+	margin: 0;
+	padding: 0;
+	box-sizing: inherit;
+	float: left!important;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	flex-direction: column;
+	-webkit-box-pack: center;
+	justify-content: center;
+}
+
+.info-order-left-text
+{
+	-webkit-tap-highlight-color: transparent;
+	line-height: 1.15;
+	color: #212121;
+	font-size: 14px;
+	font-family: Roboto-Regular,'Helvetica Neue',Helvetica,Tahoma,Arial,Sans-serif;
+	-webkit-box-direction: normal;
+	margin: 0;
+	padding: 0;
+	box-sizing: inherit;
+	margin-bottom: 4px;
+}
+
+.link
+{
+	line-height: 1.15;
+	font-size: 14px;
+	font-family: Roboto-Regular,'Helvetica Neue',Helvetica,Tahoma,Arial,Sans-serif;
+	-webkit-box-direction: normal;
+	margin: 0;
+	padding: 0;
+	box-sizing: inherit;
+	text-decoration: none;
+	-webkit-tap-highlight-color: transparent;
+	background-color: transparent;
+	cursor: pointer;
+	color: #1a9cb7;
+	font-weight: 500;
+}
+
+.text info desc
+{
+	-webkit-tap-highlight-color: transparent;
+	line-height: 1.15;
+	font-family: Roboto-Regular,'Helvetica Neue',Helvetica,Tahoma,Arial,Sans-serif;
+	-webkit-box-direction: normal;
+	margin: 0;
+	padding: 0;
+	box-sizing: inherit;
+	word-break: break-word;
+	color: #757575;
+	font-size: 12px;
+}
+
+.pull-cont
+{
+	-webkit-tap-highlight-color: transparent;
+	line-height: 1.15;
+	color: #212121;
+	font-size: 14px;
+	font-family: Roboto-Regular,'Helvetica Neue',Helvetica,Tahoma,Arial,Sans-serif;
+	padding: 0;
+	box-sizing: inherit;
+	-webkit-box-flex: 1;
+	flex: 1;
+	margin: 0 30px;
+	text-align: right;
+}
+
+.pull-rightmanage
+{
+	border: 0;
+	font-size: 14px;
+	font-family: Roboto-Regular,'Helvetica Neue',Helvetica,Tahoma,Arial,Sans-serif;
+	margin: 0;
+	padding: 0;
+	box-sizing: inherit;
+	text-decoration: none;
+	-webkit-tap-highlight-color: transparent;
+	background-color: transparent;
+	float: right!important;
+	cursor: pointer;
+	font-weight: 500;
+	line-height: 32px;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	flex-direction: column;
+	-webkit-box-pack: center;
+	justify-content: center;
+	color: black;
+	background-color: pink;
+	width: 8%;
+	text-align: center;
+
+}
+
+.pull-rightmanage:hover
+{
+	color: white;
+	background-color: #ff0072;  
+}
+
+
+.clear
+{
+	-webkit-tap-highlight-color: transparent;
+	line-height: 1.15;
+	color: #212121;
+	font-size: 14px;
+	font-family: Roboto-Regular,'Helvetica Neue',Helvetica,Tahoma,Arial,Sans-serif;
+	margin: 0;
+	padding: 0;
+	box-sizing: inherit;
+	clear: both;
+}
+
+
+
+.order-item
+{
+	-webkit-tap-highlight-color: transparent;
+	line-height: 1.15;
+	color: #212121;
+	font-size: 14px;
+	font-family: Roboto-Regular,'Helvetica Neue',Helvetica,Tahoma,Arial,Sans-serif;
+	padding: 0;
+	box-sizing: inherit;
+	min-height: 80px;
+	margin: 24px 12px 24px 36px;
+	padding-right: 12px;
+	width: 916px;
+}
+
+.item-pic
+{
+	-webkit-tap-highlight-color: transparent;
+	line-height: 1.15;
+	color: #212121;
+	font-size: 14px;
+	font-family: Roboto-Regular,'Helvetica Neue',Helvetica,Tahoma,Arial,Sans-serif;
+	margin: 0;
+	padding: 0;
+	box-sizing: inherit;
+	float: left;
+}
+.itemmainmenu
+{
+	-webkit-tap-highlight-color: transparent;
+	line-height: 1.15;
+	color: #212121;
+	font-size: 14px;
+	font-family: Roboto-Regular,'Helvetica Neue',Helvetica,Tahoma,Arial,Sans-serif;
+	margin: 0;
+	padding: 0;
+	box-sizing: inherit;
+	float: left;
+	margin-left: 50px;
+	margin-right: 24px;
+	width: 280px;
+}
+
+.text12
+{
+	-webkit-tap-highlight-color: transparent;
+	line-height: 1.15;
+	font-family: Roboto-Regular,'Helvetica Neue',Helvetica,Tahoma,Arial,Sans-serif;
+	margin: 0;
+	padding: 0;
+	box-sizing: inherit;
+	color: #212121;
+	word-break: break-word;
+	font-size: 14px;
+	margin-bottom: 3px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 7;
+}
+
+.item-quantity
+{
+	-webkit-tap-highlight-color: transparent;
+	line-height: 1.15;
+	color: #212121;
+	font-family: Roboto-Regular,'Helvetica Neue',Helvetica,Tahoma,Arial,Sans-serif;
+	margin: 0;
+	padding: 0;
+	box-sizing: inherit;
+	font-size: 14px;
+	float: right;
+	width: 64px;
+	min-height: 80px;
+	text-align: left;
+}
+
+.textmultiply
+{
+	-webkit-tap-highlight-color: transparent;
+	line-height: 1.15;
+	font-family: Roboto-Regular,'Helvetica Neue',Helvetica,Tahoma,Arial,Sans-serif;
+	text-align: left;
+	margin: 0;
+	padding: 0;
+	box-sizing: inherit;
+	word-break: break-word;
+	color: #c9c9c9;
+	font-size: 14px;
+}
+
+.text
+{
+	-webkit-tap-highlight-color: transparent;
+	line-height: 1.15;
+	font-family: Roboto-Regular,'Helvetica Neue',Helvetica,Tahoma,Arial,Sans-serif;
+	font-size: 14px;
+	text-align: left;
+	margin: 0;
+	padding: 0;
+	box-sizing: inherit;
+	color: #212121;
+	word-break: break-word;
+}
+
+
+
+.note{
+	font-size: 20px; 
+	color: #ff0072; 
+	font-style: italic;  
+	text-align: center; 
+	margin-top: 30px; 
+	margin-bottom:18px
+}
+
+
+.totalorder{
+	position: absolute;
+	margin-left: 13%;
+	margin-top: -8px;
+	border-radius: 20%;
+	background-color: black;
+	color: pink;
+	width: auto;
+	padding-left: 5px;
+	padding-right: 5px;
+	text-align: center;
+}

@@ -1,0 +1,42 @@
+table
+{
+	margin-left: auto;
+ 	margin-right: auto;
+	width: 90%;
+}
+
+td
+{
+	text-overflow: ellipsis;
+	padding: 10px 10px 10px 10px;
+}
+
+tr{
+
+}
+
+tr:nth-child(even)
+{
+	background-color: white;
+}
+
+tr:nth-child(odd)
+{
+	background-color:rgba(234, 231, 220, 1);
+}
+
+tr:hover
+{
+	background-color: rgba(117, 20, 117, 0.2);
+
+}
+
+i#delete{
+	color:  rgba(103, 128, 159, 1);
+	cursor: pointer;
+}
+
+i#delete:hover{
+	color: red;
+	text-decoration-line: none;
+}

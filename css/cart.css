@@ -1,0 +1,313 @@
+.cart-page-product-header
+{
+	border-radius: 4px;
+	font-family: inherit;
+	display: flex;
+	-webkit-box-align: center;
+	align-items: center;
+	box-shadow: 0 1px 1px 0 rgba(0,0,0,.05);
+	overflow: hidden;
+    height: 3.4375rem;
+    font-size: .875rem;
+    background: #fff;
+    text-transform: capitalize;
+    width: 82.5%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 12px;
+    color: #888;
+    padding: 0 50px;
+}
+
+
+
+.cart-page-product-header__action {
+line-height: 1.2;
+font-family: Roboto, "Helvetica Neue", Helvetica, Arial, 文泉驛正黑, "WenQuanYi Zen Hei", "Hiragino Sans GB", "儷黑 Pro", "LiHei Pro", "Heiti TC", 微軟正黑體, "Microsoft JhengHei UI", "Microsoft JhengHei", sans-serif;
+-webkit-box-direction: normal;
+font-size: .875rem;
+text-transform: capitalize;
+color: #888;
+width: 18%;
+text-align: center;
+
+}
+
+.cart-page-product-header__product {
+  
+    line-height: 1.2;
+    font-family: sans-serif;
+-webkit-box-direction: normal;
+font-size: .875rem;
+text-transform: capitalize;
+width: 28%;
+}
+
+.cart-page-product-header__unit-price {
+line-height: 1.2;
+font-family: Roboto, "Helvetica Neue", Helvetica, Arial, 文泉驛正黑, "WenQuanYi Zen Hei", "Hiragino Sans GB", "儷黑 Pro", "LiHei Pro", "Heiti TC", 微軟正黑體, "Microsoft JhengHei UI", "Microsoft JhengHei", sans-serif;
+-webkit-box-direction: normal;
+font-size: .875rem;
+text-transform: capitalize;
+color: #888;
+width: 18%;
+text-align: center;
+    }
+
+.cart-page-product-header__quantity
+{
+	line-height: 1.2;
+font-family: Roboto, "Helvetica Neue", Helvetica, Arial, 文泉驛正黑, "WenQuanYi Zen Hei", "Hiragino Sans GB", "儷黑 Pro", "LiHei Pro", "Heiti TC", 微軟正黑體, "Microsoft JhengHei UI", "Microsoft JhengHei", sans-serif;
+-webkit-box-direction: normal;
+font-size: .875rem;
+text-transform: capitalize;
+color: #888;
+width: 18%;
+text-align: center;
+}
+
+.cart-page-product-header__total-price
+{
+	line-height: 1.2;
+font-family: Roboto, "Helvetica Neue", Helvetica, Arial, 文泉驛正黑, "WenQuanYi Zen Hei", "Hiragino Sans GB", "儷黑 Pro", "LiHei Pro", "Heiti TC", 微軟正黑體, "Microsoft JhengHei UI", "Microsoft JhengHei", sans-serif;
+-webkit-box-direction: normal;
+font-size: .875rem;
+text-transform: capitalize;
+color: #888;
+width: 18%;
+text-align: center;
+}
+
+.bundle-group
+{
+	font-size: .875rem;
+	line-height: 1.2;
+	font-family: Roboto, "Helvetica Neue", Helvetica, Arial, 文泉驛正黑, "WenQuanYi Zen Hei", "Hiragino Sans GB", "儷黑 Pro", "LiHei Pro", "Heiti TC", 微軟正黑體, "Microsoft JhengHei UI", "Microsoft JhengHei", sans-serif;
+	-webkit-box-direction: normal;
+	color: rgba(0,0,0,.8);
+	border: 1px solid #f7e5da;
+	padding-bottom: 15px;
+	border-radius: 2px;
+	margin: 0 50px;
+	background-color: #fff;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.cart-item
+{
+font-size: .875rem;
+line-height: 1.2;
+font-family: Roboto, "Helvetica Neue", Helvetica, Arial, 文泉驛正黑, "WenQuanYi Zen Hei", "Hiragino Sans GB", "儷黑 Pro", "LiHei Pro", "Heiti TC", 微軟正黑體, "Microsoft JhengHei UI", "Microsoft JhengHei", sans-serif;
+-webkit-box-direction: normal;
+text-decoration: none;
+color: rgba(0,0,0,.8);
+display: block;
+padding: 0 1.25rem .9375rem;
+margin-top: .9375rem;
+padding-bottom: 1.25rem;
+border: none;
+}
+
+.cart-item__content
+{
+	font-size: .875rem;
+line-height: 1.2;
+font-family: Roboto, "Helvetica Neue", Helvetica, Arial, 文泉驛正黑, "WenQuanYi Zen Hei", "Hiragino Sans GB", "儷黑 Pro", "LiHei Pro", "Heiti TC", 微軟正黑體, "Microsoft JhengHei UI", "Microsoft JhengHei", sans-serif;
+-webkit-box-direction: normal;
+color: rgba(0,0,0,.8);
+display: flex;
+-webkit-box-align: center;
+align-items: center;
+}
+
+.cart-item__cell-overview
+{
+	font-size: .875rem;
+line-height: 1.2;
+font-family: Roboto, "Helvetica Neue", Helvetica, Arial, 文泉驛正黑, "WenQuanYi Zen Hei", "Hiragino Sans GB", "儷黑 Pro", "LiHei Pro", "Heiti TC", 微軟正黑體, "Microsoft JhengHei UI", "Microsoft JhengHei", sans-serif;
+-webkit-box-direction: normal;
+color: rgba(0,0,0,.8);
+width: 28.03811%;
+box-sizing: border-box;
+display: flex;
+}
+
+.cart-item-overview__thumbnail-wrapper
+{
+	font-size: .875rem;
+line-height: 1.2;
+font-family: Roboto, "Helvetica Neue", Helvetica, Arial, 文泉驛正黑, "WenQuanYi Zen Hei", "Hiragino Sans GB", "儷黑 Pro", "LiHei Pro", "Heiti TC", 微軟正黑體, "Microsoft JhengHei UI", "Microsoft JhengHei", sans-serif;
+-webkit-box-direction: normal;
+background-color: transparent;
+text-decoration: none;
+}
+.cart-item-overview__thumbnail
+{
+	font-size: .875rem;
+line-height: 1.2;
+font-family: Roboto, "Helvetica Neue", Helvetica, Arial, 文泉驛正黑, "WenQuanYi Zen Hei", "Hiragino Sans GB", "儷黑 Pro", "LiHei Pro", "Heiti TC", 微軟正黑體, "Microsoft JhengHei UI", "Microsoft JhengHei", sans-serif;
+-webkit-box-direction: normal;
+background-position: 50%;
+background-size: contain;
+background-repeat: no-repeat;
+width: 10rem;
+height: 10rem;
+
+}
+
+.cart-item-overview__product-name-wrapper
+{
+	font-family: Roboto, "Helvetica Neue", Helvetica, Arial, 文泉驛正黑, "WenQuanYi Zen Hei", "Hiragino Sans GB", "儷黑 Pro", "LiHei Pro", "Heiti TC", 微軟正黑體, "Microsoft JhengHei UI", "Microsoft JhengHei", sans-serif;
+color: rgba(0,0,0,.8);
+display: flex;
+-webkit-box-orient: vertical;
+-webkit-box-direction: normal;
+flex-direction: column;
+padding: .3125rem 1.25rem 0 .625rem;
+font-size: .875rem;
+line-height: 1rem;
+width: 18.21875rem;
+}
+
+.cart-item-overview__name
+{
+	font-family: Roboto, "Helvetica Neue", Helvetica, Arial, 文泉驛正黑, "WenQuanYi Zen Hei", "Hiragino Sans GB", "儷黑 Pro", "LiHei Pro", "Heiti TC", 微軟正黑體, "Microsoft JhengHei UI", "Microsoft JhengHei", sans-serif;
+-webkit-box-direction: normal;
+font-size: .875rem;
+background-color: transparent;
+text-decoration: none;
+color: rgba(0,0,0,.8);
+margin-bottom: .3125rem;
+line-height: 1rem;
+max-height: 2rem;
+text-overflow: ellipsis;
+overflow: hidden;
+word-break: break-word;
+display: -webkit-box;
+-webkit-box-orient: vertical;
+-webkit-line-clamp: 2;
+}
+
+..cart-item-overview__name:hover{
+	color: #ff0072;
+}
+
+.cart-item-overview__message
+{
+	font-family: Roboto, "Helvetica Neue", Helvetica, Arial, 文泉驛正黑, "WenQuanYi Zen Hei", "Hiragino Sans GB", "儷黑 Pro", "LiHei Pro", "Heiti TC", 微軟正黑體, "Microsoft JhengHei UI", "Microsoft JhengHei", sans-serif;
+-webkit-box-direction: normal;
+font-size: .875rem;
+line-height: 1rem;
+display: flex;
+color: #ee4d2d;
+}
+
+.cart-item__cell-unit-price
+{
+	font-size: .875rem;
+line-height: 1.2;
+font-family: Roboto, "Helvetica Neue", Helvetica, Arial, 文泉驛正黑, "WenQuanYi Zen Hei", "Hiragino Sans GB", "儷黑 Pro", "LiHei Pro", "Heiti TC", 微軟正黑體, "Microsoft JhengHei UI", "Microsoft JhengHei", sans-serif;
+color: rgba(0,0,0,.8);
+display: flex;
+-webkit-box-align: center;
+align-items: center;
+-webkit-box-pack: center;
+justify-content: center;
+width: 19%;
+-webkit-box-orient: vertical;
+-webkit-box-direction: normal;
+flex-direction: column;
+
+}
+
+.cart-item__cell-quantity
+{
+	font-size: .875rem;
+line-height: 1.2;
+font-family: Roboto, "Helvetica Neue", Helvetica, Arial, 文泉驛正黑, "WenQuanYi Zen Hei", "Hiragino Sans GB", "儷黑 Pro", "LiHei Pro", "Heiti TC", 微軟正黑體, "Microsoft JhengHei UI", "Microsoft JhengHei", sans-serif;
+color: rgba(0,0,0,.8);
+-webkit-box-orient: vertical;
+-webkit-box-direction: normal;
+flex-direction: column;
+display: flex;
+-webkit-box-align: center;
+align-items: center;
+-webkit-box-pack: center;
+justify-content: center;
+width: 18%;
+}
+
+.cart-item__cell-total-price
+{
+	font-size: .875rem;
+line-height: 1.2;
+font-family: Roboto, "Helvetica Neue", Helvetica, Arial, 文泉驛正黑, "WenQuanYi Zen Hei", "Hiragino Sans GB", "儷黑 Pro", "LiHei Pro", "Heiti TC", 微軟正黑體, "Microsoft JhengHei UI", "Microsoft JhengHei", sans-serif;
+-webkit-box-direction: normal;
+width: 19%;
+text-align: center;
+color: #ee4d2d;
+}
+
+.cart-item__cell-actions
+{
+	font-size: .875rem;
+line-height: 1.2;
+font-family: Roboto, "Helvetica Neue", Helvetica, Arial, 文泉驛正黑, "WenQuanYi Zen Hei", "Hiragino Sans GB", "儷黑 Pro", "LiHei Pro", "Heiti TC", 微軟正黑體, "Microsoft JhengHei UI", "Microsoft JhengHei", sans-serif;
+-webkit-box-direction: normal;
+color: rgba(0,0,0,.8);
+display: flex;
+-webkit-box-align: center;
+align-items: center;
+-webkit-box-pack: center;
+justify-content: center;
+width: 18%;
+text-transform: capitalize;
+}
+
+.cart-item__action
+{
+	-webkit-box-direction: normal;
+color: inherit;
+font: inherit;
+margin: 0;
+overflow: visible;
+text-transform: none;
+-webkit-appearance: button;
+cursor: pointer;
+background: none;
+border: none;
+}
+
+.cart-item__action:hover
+{
+	color: red;
+}
+
+.summary
+{
+	line-height: 1.2;
+    font-family: sans-serif;
+-webkit-box-direction: normal;
+font-size: .875rem;
+text-transform: capitalize;
+float: left;
+}
+
+.checkoutbtn
+{
+	background-color: pink; 
+	border: none;
+	width: 10%;
+	padding: 10px;
+	margin: 63px 6px; 
+	float: right;  
+	cursor: pointer;
+}
+
+.checkoutbtn:hover
+{
+	color: white;
+	background-color: #ff0072;
+}

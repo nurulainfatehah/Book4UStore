@@ -1,0 +1,43 @@
+.staff-table {
+	text-align: center;
+	padding: 20px 10px 30px 10px;
+	background-color: white;
+	width: 100%;
+	margin-left: 25%;
+	margin-right: auto;
+
+}
+
+.staff-table table 
+{
+	margin-left: auto;
+ 	margin-right: auto;
+	width: 100%;
+	text-align: center;
+}
+
+.staff-table td 
+{
+	text-overflow: ellipsis;
+	padding: 10px 10px 10px 10px;
+}
+
+.staff-table tr{
+
+}
+
+.staff-table tr:nth-child(even)
+{
+	background-color: white;
+}
+
+.staff-table tr:nth-child(odd)
+{
+	background-color:rgba(234, 231, 220, 1);
+}
+
+.staff-table tr:hover
+{
+	background-color: rgba(117, 20, 117, 0.2);
+
+}

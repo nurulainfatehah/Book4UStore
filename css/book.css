@@ -1,0 +1,100 @@
+.holder{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bookcontainer{
+    display: block;
+    box-sizing: border-box;
+    height: 410px;
+    width: 225px;
+    float: left;
+    margin: 0px 14px 24px 0px;
+    padding: 8px;
+    position: relative; 
+    border-radius: 4px;
+    background-color: white;
+    cursor: default;
+    --box-shadow-color: lightgray;
+    box-shadow: 1px 2px 2px var(--box-shadow-color);
+}
+
+.bookcontainer:hover{
+     --box-shadow-color: grey;
+}
+
+.pic{
+    display: block; 
+    box-sizing: border-box;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+    border-radius: 4px;
+
+}
+
+.pic img{
+    height: 100%;
+    width: 100%;
+    border-radius: 4px;
+}
+
+img.soldImgList{
+    position: absolute;
+    top: 64px;
+    left: 35px;
+    height: 80px;
+    max-width: 70%;
+}
+
+.title
+{
+    font-size: 18px;
+    height: 45px;
+    line-height: 20px;
+    margin-left: 10%;
+    margin-right: 5%;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    padding-bottom: 5px;
+    border: 1px solid #000000;
+    border-color: transparent;
+    padding-top: 5px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    
+}
+
+.price
+{
+    color: #ff0072;
+    font-size: 15px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.description
+{
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 70px;
+    line-height: 18px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+    overflow: hidden;
+    margin-bottom: 20px;
+
+}
+
+.carticon{
+    background-color: transparent;
+    border: none;
+    cursor: pointer; 
+    height: 20px;
+    width: 8%;
+    margin-left: 15%;
+}

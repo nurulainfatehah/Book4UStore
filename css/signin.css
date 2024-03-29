@@ -1,0 +1,87 @@
+.login-box
+{
+	width: 280px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	color: white;
+
+}
+
+
+.login-box h1
+{
+	border-bottom: 6px solid  pink;
+	float: left;
+	font-size: 30px;
+	margin-bottom: 50px;
+	padding: 13px 0;
+}
+
+.textbox
+{
+	width: 100%;
+	overflow: hidden;
+	font-size: 20px;
+	padding: 8px 0;
+	margin: 8px 0;
+	border-bottom: 1px solid  pink;
+}
+
+.picsize
+{
+	height: 20px;
+	width: 20px;
+	float: left;
+	text-align: center;
+
+}
+
+.textbox input
+{
+	border:none;
+	outline: none;
+	background: none;
+	font-size: 17px;
+	color: white;
+	width: 80%;
+	float: left;
+	margin: 0 10px;
+
+}
+
+
+
+fieldset
+{
+	margin: auto;
+	background: rgba(0, 0, 0, 0.54);
+	height: 70%;
+	width: 30%;
+	border-style: none;
+}
+
+.fieldset1
+{
+	margin: auto;
+	background: rgba(0, 0, 0, 0.54);
+	height: 70%;
+	width: 60%;
+	border-style: none;
+}
+
+
+textarea{
+	font-family: sans-serif;
+}
+td:nth-child(even)
+{
+	
+}
+
+td:nth-child(odd)
+{
+	padding-left: 3%;
+	width: 40%;
+}
